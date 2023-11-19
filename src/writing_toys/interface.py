@@ -11,7 +11,7 @@ def get_interface(
     load_dotenv()
     interface = GptInterface(
         openai_api_key=cast(str, os.getenv("OPEN_API_KEY")),
-        model="gpt-3.5-turbo",
+        model="gpt-4",
         json_mode=json_mode,
     )
     return interface
