@@ -2,12 +2,13 @@
 [project]
 name = "writing_toys"
 version = "0.1.0"
-description = ""
+description = "Some small tools used for idea generation in writing."
 authors = [
     {name = "Matt Zhang", email = "set.stun@gmail.com"},
 ]
 dependencies = [
     "py-gpt-interface>=0.3.2",
+    "wonderwords>=2.2.0",
 ]
 requires-python = ">=3.11"
 readme = "README.md"
@@ -16,3 +17,4 @@ license = {text = "MIT"}
 [build-system]
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
+
