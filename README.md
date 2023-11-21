@@ -22,3 +22,5 @@ python examples/characters.py --prompt "A gigantic sentient tapeworm living in t
 python examples/settings.py --emotion_random
 python examples/settings.py --prompt "A galactic maze"
 ```
+
+See the examples/ folder for more.
