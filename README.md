@@ -14,7 +14,7 @@ OPENAI_API_KEY=sk-exampleKey
 
 Try out the following:
 
-```
+```bash
 python examples/characters.py
 python examples/settings.py
 python examples/characters.py --emotion_random
